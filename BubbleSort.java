@@ -17,7 +17,7 @@ public class BubbleSort {
 				input[i]=input[i+1];
 				input[i+1]=temp;
 			}
-			if(swapped>(input.length/2)+1) {
+			if(swapped>(input.length-1)) {
 				break;
 			}
 		}
